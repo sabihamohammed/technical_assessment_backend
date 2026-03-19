@@ -3,8 +3,8 @@
 # greater than 100, sorted in descending order.
 
 def filter_orders(order_ids):
-    # TODO: Write your logic here
-    pass
+    filtered =[order for order in filter_orders if order["id"] ==2]
+print(filter_orders)
 
 # Test Case
 test_data = [10, 105, 120, 44, 202, 300, 75, 110]
